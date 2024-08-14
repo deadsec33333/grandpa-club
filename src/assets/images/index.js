@@ -30,6 +30,7 @@ import rd1 from './rd1.png'
 import rd2 from './rd2.png'
 import joinImage from './join.png'
 import spinningImage from './spin.png'
+import topLogo from './topLogo.png'
 
 
 
@@ -74,6 +75,7 @@ export {
     rd2,
     joinImage,
     spinningImage,
+    topLogo,
 
 
 

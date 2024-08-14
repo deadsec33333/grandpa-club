@@ -1,6 +1,6 @@
 import React from 'react';
 import { spinningImage } from '../assets/images'; // Replace with your actual image path
-import {  img1, cardImage1  } from '../assets/images'; 
+import {  img1, cardImage1, topLogo  } from '../assets/images'; 
 
 const ComingSoon = () => {
     const cards = [
@@ -10,6 +10,12 @@ const ComingSoon = () => {
   return (
     
     <section className="w-full h-screen flex flex-col justify-center items-center bg-black">
+              <img
+        src={topLogo}
+        alt="Centered Image"
+        className="w-[200px] h-auto md:w-[150px] lg:w-[600px] mb-8"
+      />
+        
       <h1 className="text-white text-4xl md:text-6xl font-bold mb-8 font-comic">
         Coming Soon...
       </h1>
