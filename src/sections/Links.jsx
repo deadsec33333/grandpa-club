@@ -3,10 +3,10 @@ import { findTitle, img1, img2, cardImage1, cardImage2, bottomLinks } from '../a
 
 const Links = () => {
   const cards = [
-    { title: "PUMPFUN", text: "BUY NOW", link: "https://pump.fun/632sZSUCr4yGfJhGqB3kiBdS2NfvezmBgeVM94xQpump", image: img2 },
-    { title: "TELEGRAM", text: "Join Now", link: "https://t.me/schoolboysol", image: cardImage1 },
-    { title: "X", text: "Join Now", link: "https://x.com/SCHOOLBOYSOL", image: img1 },
-    { title: "DEXSCREENER", text: "BUY NOW", link: "https://pump.fun/632sZSUCr4yGfJhGqB3kiBdS2NfvezmBgeVM94xQpump", image: cardImage2 }
+    { title: "PUMPFUN", text: "BUY NOW", link: "https://pump.fun/4B9Z8Wrjw8b8DAYdS2x89eedHQ5rVoVkyRFQfpT2pump", image: img2 },
+    { title: "TELEGRAM", text: "Join Now", link: "https://t.me/GrandpasClub", image: cardImage1 },
+    { title: "X", text: "Join Now", link: "https://x.com/TheGrandpasClub", image: img1 },
+    { title: "DEXSCREENER", text: "BUY NOW", link: "https://pump.fun/4B9Z8Wrjw8b8DAYdS2x89eedHQ5rVoVkyRFQfpT2pump", image: cardImage2 }
   ];
 
   return (
@@ -31,8 +31,8 @@ const Links = () => {
               />
             </div>
             <div className="p-4 text-center">
-              <h3 className=" font-anton text-xl font-bold mb-8">{card.title}</h3>
-              <p className="font-anton text-sm mb-8">{card.text}</p>
+              <h3 className=" font-comic text-xl font-bold mb-8">{card.title}</h3>
+              <p className="font-comic text-sm mb-8">{card.text}</p>
             </div>
           </a>
         ))}
@@ -40,7 +40,7 @@ const Links = () => {
       <img
         src={bottomLinks}
         alt="Bottom Image"
-        className="w-1/3 max-w-screen-lg mt-56 bottom"
+        className="w-1/3 max-w-screen-lg mt-12 bottom"
       />
     </section>
   );

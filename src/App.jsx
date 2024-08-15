@@ -18,6 +18,7 @@ import main2 from './assets/images/main2.png';
 import main3 from './assets/images/main3.png';
 import bgImage from './assets/images/main.png';
 import mainbg from './assets/images/mainbg.png';
+import linkBg from './assets/images/linkBg.png'
 
 
 
@@ -40,15 +41,15 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative bg-[#000]" style={{ backgroundImage: `url(${mainbg})` }}>
+  <main className="relative bg-[#fbe5c4]" >
     {/* <Nav /> */}
    
 
   
 
 
-    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section>
-   {/*
+    {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section> */}
+   
     <VideoBackground >
       <Hero />
     </ VideoBackground >
@@ -61,14 +62,16 @@ return(
     </section>
     <SeparatorReverse />
     
-        <About4 />
-      
-        <Links />
+    <About4 />
+    <section className="w-full h-full bg-repeat bg-center   " style={{ backgroundImage: `url(${linkBg})` }}>
+    <Links />
+    </section>
+        
         <Join />
-      */}
+     
 
 
-    {/* <section className=""><StickyFooter /></section>  */}
+    <section className=""><StickyFooter /></section> 
   </main>
 );
 };

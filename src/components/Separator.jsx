@@ -57,7 +57,7 @@ const Separator = () => {
 
     const animateSeparator = () => {
       let position = 0;
-      const speed = 1; // Adjust as needed for desired animation speed
+      const speed = 3; // Adjust as needed for desired animation speed
 
       const moveSeparator = () => {
         position += speed;
@@ -88,8 +88,8 @@ const Separator = () => {
       className="separator"
       style={{
         backgroundImage: `url(${separatorImage})`,
-        transform: 'rotate(-2.5deg)', // Adjust the rotation as needed
-        transformOrigin: 'top left', // Set the origin point for rotation
+        // transform: 'rotate(-2.5deg)', 
+        // transformOrigin: 'top left', 
       }}
     />
   );
