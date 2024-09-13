@@ -5,7 +5,7 @@ const Links = () => {
   const cards = [
     { title: "PUMPFUN", text: "BUY NOW", link: "https://pump.fun/board", image: img2 },
     { title: "TELEGRAM", text: "Join Now", link: "https://t.me/GrandpasClub", image: cardImage1 },
-    { title: "X", text: "Join Now", link: "https://x.com/GrandpasClubSol", image: img1 },
+    { title: "X", text: "Join Now", link: "https://x.com/GrandpasSolClub", image: img1 },
     { title: "DEXSCREENER", text: "BUY NOW", link: "https://pump.fun/board", image: cardImage2 }
   ];
 
