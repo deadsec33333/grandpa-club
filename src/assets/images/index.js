@@ -4,7 +4,7 @@ import banner2 from './banner2.png';
 import about from './about.png';
 // import roadmap from './roadmap.png'
 import mainBg from "./main.png";
-import separatorImage from "./separator.png";
+import separatorImage from "./separator2.png";
 import separatorReverse from "./separator2.png";
 
 import bg3 from './bg3.png'
