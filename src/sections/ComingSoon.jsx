@@ -4,7 +4,7 @@ import {  img1, cardImage1, topLogo  } from '../assets/images';
 
 const ComingSoon = () => {
     const cards = [
-        { title: "TELEGRAM", text: "Join Now", link: "https://t.me/GrandpasClub", image: cardImage1, initialRotation: "rotate-[-4deg]", },
+        { title: "TELEGRAM", text: "Join Now", link: "https://t.me/TheGrandpasClub", image: cardImage1, initialRotation: "rotate-[-4deg]", },
         { title: "X", text: "Join Now", link: "https://x.com/TheGrandpasClub", image: img1,  initialRotation: "rotate-[6deg]", },
       ];
   return (
